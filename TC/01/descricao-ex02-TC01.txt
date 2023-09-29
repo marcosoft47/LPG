@@ -1,0 +1,7 @@
+Peço o valor de todas as coisas necessárias para o calculo.
+
+Segundo a minha intuição e rascunho, o gasto total com gasolina é a média de km por litro,
+dividido pela quantidade de km percorrido vezes o preço do litro. Somando também o valor gasto
+com pedágio e estacionamento.
+
+No caso do exemplo exagerado, foi percorrido 80 km por dia, o preco do combustivel é 5 reais e o carro faz 2 km por litro. Também é gasto 15 reais com o estacionamento e 20 no pedagio.

@@ -1,0 +1,46 @@
+1-
+
+#include <stdlib.h>
+#include <stdio.h>
+int main(){
+    float a, b, c;
+    scanf("%f", &a);
+    scanf("%f", &b);
+    scanf("%f", &c);
+
+    //Não foi pedido, mas vou colocar condição de existência de triangulos
+    if ((a + b < c) || (a + c < b) || (b + c < a)){
+        printf("Nao é triangulo.");
+    } else {
+        if (a == b && b == c){
+            printf("Equilatero");
+        }else if (a == b || b == c || c == a){
+            printf("Isosceles");}
+        else{
+            printf("Escaleno");
+        }
+    }
+}
+
+2-
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+int main(){
+    char nome[255];
+    char sexo[20];
+    printf("Informe o nome: ");
+    scanf("%s", nome);
+    printf("Informe o sexo (masculino ou feminino): ");
+    scanf("%s", sexo);
+
+    if (strcmp(sexo, "masculino")==0){
+        printf("%s. Sr.", nome);
+    } else if(strcmp(sexo, "feminino")==0) {
+        printf("%s. Sra.", nome);
+    } else {
+        //Não foi pedido, coloquei por colocar
+        printf("Sexo invalido");
+    }
+}
